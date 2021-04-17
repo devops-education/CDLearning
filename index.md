@@ -16,6 +16,16 @@ O ambiente disponibiliza os seguintes serviços:
 
 ### Aula de Pipeline
 
+
+<p align="center"> 
+  <img style="margin: -30px;" src="https://github.com/devops-education/CDLearning/blob/main/images/cdlearning_pipeline.png" /> 
+</p>
+
+
+<p align="center"> 
+  <img style="margin: -30px;" src="https://github.com/devops-education/CDLearning/blob/main/images/cdlearning_pipeline_cadastro.png" /> 
+</p>
+
 ### Aula de Gerenciamento de Artefatos
 
 ### Aula de Gerenciamento de Configuração
