@@ -1,4 +1,4 @@
-## Ambiente p/ ensino de Continuous Delivery
+## Ambiente p/ aprendizado de Continuous Delivery
 
 O CDLearning é uma ambiente de apoio ao aprendizado da Entrega Contínua de Software (ECS), um dos pilares fundamentais de DevOps. O ambiente lida com desafios de ensino DevOps reportados pela comunidade,  tais  como:  
 - promover  a  integração  de  ferramentas  de  ECS  para  diminuir  a carga de trabalho de professores;
