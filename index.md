@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Introdução 
 
-You can use the [editor on GitHub](https://github.com/devops-education/CDLearning/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+O CDLearning é uma ambiente de apoio ao aprendizado da Entrega Contínua de Software (ECS), um dos pilares fundamentais de DevOps. O ambiente lida com desafios de ensino DevOps reportados pela comunidade,  tais  como:  
+- promover  a  integração  de  ferramentas  de  ECS  para  diminuir  a carga de trabalho de professores;
+- mitigar a dificuldade inicial de configuração de pipeline ECS de projetos através da oferta de configurações iniciais de pipeline que podem ser usados e estendidos pelos estudantes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Cenários de ensino
 
-### Markdown
+### Aula de Pipeline
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Aula de Gerenciamento de Artefatos
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devops-education/CDLearning/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Aula de Gerenciamento de Configuração
