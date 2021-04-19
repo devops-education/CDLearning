@@ -44,3 +44,7 @@ O ambiente disponibiliza os seguintes serviços:
 - Serviço de Gerenciamento de Configuração ([Ansible](https://www.ansible.com/))
 
 ![Arquitetura da solução CDLearning.]({{site.url}}/images/arquiteturaDevOps.png "Arquitetura da solução CDLearning.")
+
+## Quem usa o CDLearning
+
+Atualmente, o CDLearning está em operação no IFRN (Instituto Federal do Rio Grande do Norte) no endereço ([DevOps IFRN](https://devops.ifrn.edu.br/))
