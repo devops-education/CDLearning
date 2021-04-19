@@ -12,20 +12,15 @@ O ambiente disponibiliza os seguintes serviços:
 - Serviço de Conteinização ([Docker](https://www.docker.com/))
 
 
-## Cenários de aula
-
-### Aula de Pipeline
-
-
-<p align="center"> 
-  <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline.png" /> 
-</p>
-
+## Caso de Uso do Cadastro de um Sistema
 
 <p align="center"> 
   <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline_cadastro.png" /> 
 </p>
 
-### Aula de Gerenciamento de Artefatos
+## Caso de Uso do Pipeline de Construção de um Sistema
 
-### Aula de Gerenciamento de Configuração
+<p align="center"> 
+  <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline.png" /> 
+</p>
+
