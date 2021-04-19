@@ -18,12 +18,12 @@ O ambiente disponibiliza os seguintes serviços:
 
 
 <p align="center"> 
-  <img style="margin: -30px;" src="https://github.com/devops-education/CDLearning/blob/main/images/cdlearning_pipeline.png" /> 
+  <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline.png" /> 
 </p>
 
 
 <p align="center"> 
-  <img style="margin: -30px;" src="https://github.com/devops-education/CDLearning/blob/main/images/cdlearning_pipeline_cadastro.png" /> 
+  <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline_cadastro.png" /> 
 </p>
 
 ### Aula de Gerenciamento de Artefatos
