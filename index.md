@@ -15,12 +15,33 @@ O ambiente disponibiliza os seguintes serviços:
 ## Caso de Uso do Cadastro de um Sistema
 
 <p align="center"> 
-  <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline_cadastro.png" /> 
+  <img style="margin: -30px;" src="/images/adicionarServico.png" /> 
+</p>
+
+<p align="center"> 
+  <img style="margin: -30px;" src="/images/cdlearning_pipeline_cadastro.png" /> 
 </p>
 
 ## Caso de Uso do Pipeline de Construção de um Sistema
 
 <p align="center"> 
-  <img style="margin: -30px;" src="https://raw.githubusercontent.com/devops-education/CDLearning/main/images/cdlearning_pipeline.png" /> 
+  <img style="margin: -30px;" src="/images/cdlearning_pipeline.png" /> 
 </p>
 
+## Detalhe de um serviço
+
+<p align="center"> 
+  <img style="margin: -30px;" src="/images/detalheServico.png" /> 
+</p>
+
+## Detalhe dos containeres de um serviço
+
+<p align="center"> 
+  <img style="margin: -30px;" src="/images/detalheContaineres.png" /> 
+</p>
+
+## Arquitetura Geral do CDLearning
+
+<p align="center"> 
+  <img style="margin: -30px;" src="/images/arquiteturaDevOps.png" /> 
+</p>
