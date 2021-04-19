@@ -47,4 +47,4 @@ O ambiente disponibiliza os seguintes serviços:
 
 ## Quem usa o CDLearning
 
-Atualmente, o CDLearning está em operação no IFRN (Instituto Federal do Rio Grande do Norte) no endereço ([DevOps IFRN](https://devops.ifrn.edu.br/))
+Atualmente, o CDLearning está em operação no IFRN (Instituto Federal do Rio Grande do Norte) no endereço ([DevOps IFRN](https://devops.ifrn.edu.br/)).
