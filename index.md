@@ -14,9 +14,13 @@ O ambiente disponibiliza os seguintes serviços:
 
 ## Caso de Uso do Cadastro de um Sistema
 
+O aluno acessa a interface gráfica do Microservico (imagem abaixo), informando o nome do sistema e o endereço do repositório do código fonte a ser criado no Gitlab.
+
 <p align="center"> 
   <img style="margin: -30px;" src="{{site.url}}/images/adicionarServico.png" /> 
 </p>
+
+O Microservico é um serviço desenvolvido internamente com a finalidade de realizar integração e configuração dos outros serviços utilizados no ambiente. O Gitlab é uma ferramenta de software livre especializada em versionamento de código fonte e gestão de tarefas. No passo 2 da figura abaixo, o Microservico acessa o Gitlab, cria o repositório do código e configura esse serviço para notificar o Jenkins de eventuais alterações no código. O Jenkins é software livre especializado em automação de ECS. No passo 3, o Microservico cria no Jenkins o job que será responsável por executar o pipeline da aplicação recém cadastrada. Por fim, o Microservico configura o Nginx no passo 4, criando uma rota de acesso na internet para a aplicação desenvolvida. O Nginx é um software livre utilizado como proxy reverso de aplicações web.
 
 <p align="center"> 
   <img style="margin: -30px;" src="{{site.url}}/images/cdlearning_pipeline_cadastro.png" /> 
@@ -24,17 +28,23 @@ O ambiente disponibiliza os seguintes serviços:
 
 ## Caso de Uso do Pipeline de Construção de um Sistema
 
+Durante o desenvolvimento do sistema, a execução da sua respectiva ECS será invocada toda vez que o aluno submeter alteração no código para o Gitlab, conforme ilustra o passo 1 da Figura abaixo. No passo 2, o Gitlab notifica o Jenkins da mudança do código. Por sua vez, o Jenkins executa o pipeline nos passos 3, 4 e 5. No passo 3, o Jenkins executa as tarefas de atualização do código fonte, compilação, análise estática, testes e construção do executável da aplicação. No passo 4, o Jenkins armazena a imagem desse executável no Nexus. O Nexus é um software livre que serve como repositório de artefatos. Por fim, o Jenkins cria o contêiner da aplicação em uma das máquinas virtuais do ambiente de hospedagem a partir da imagem armazenada no Nexus. Dessa forma, ao final da ECS, o aluno verificará a execução de sua aplicação refletindo as modificações realizadas no código fonte. Vale ressaltar que o único trabalho do aluno é indicar o nome do sistema e o endereço do repositório do código fonte a ser criado no Gitlab, conforme descrito anteriormente.
+
 <p align="center"> 
   <img style="margin: -30px;" src="{{site.url}}/images/cdlearning_pipeline.png" /> 
 </p>
 
 ## Detalhe de um serviço
 
+No módulo Microservico, é possível acessar detalhes do contêineres, o sistema em um endereço na internet do tipo MeuSistema.devops.xxxx.zz, o repositório do código fonte no Gitlab, as execuções da ECS no Jenkins, a imagem da aplicação no Nexus e gerenciar o acesso de membros do serviço.
+
 <p align="center"> 
   <img style="margin: -30px;" src="{{site.url}}/images/detalheServico.png" /> 
 </p>
 
 ## Detalhe dos containeres de um serviço
+
+No módulo Microservico, é possível visualizar a quantidade dos contêineres, portas, volumes, imagens e parâmetros de inicialização da execução.
 
 <p align="center"> 
   <img style="margin: -30px;" src="{{site.url}}/images/detalheContaineres.png" /> 
