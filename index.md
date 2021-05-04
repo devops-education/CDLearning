@@ -5,6 +5,27 @@ O CDLearning é uma ambiente de apoio ao aprendizado da [Entrega Contínua de So
 - promover  a  integração  de  ferramentas  de  ECS  para  diminuir  a carga de trabalho de professores;
 - mitigar a dificuldade inicial de configuração de pipeline ECS de projetos através da oferta de configurações iniciais de pipeline que podem ser usados e estendidos pelos estudantes.
 
+
+### Tabela de conteúdo  
+
+- [Arquitetura Geral do CDLearning](#arquitetura-geral-do-cdlearning)
+- [Caso de uso do Cadastro de um Sistema](#caso-de-uso-do-cadastro-de-um-sistema) 
+- [Caso de Uso do Pipeline de Construção de um Sistema](#caso-de-uso-do-pipeline-de-construção-de-um-sistema)
+- [Acessando detalhes de um serviço](#acessando-detalhes-de-um-serviço)
+- [Quem usa o CDLearning](#quem-usa-o-cdlearning)
+
+## Arquitetura Geral do CDLearning
+
+O ambiente disponibiliza os seguintes serviços:
+
+- Serviço de Repositório de Código Fonte ([GitLab](https://about.gitlab.com/))
+- Serviço de Execução de _Pipeline_ ([Jenkins](https://www.jenkins.io/))
+- Serviço de Armazenamento de Artefatos ([Nexus](https://www.sonatype.com/))
+- Serviço de Conteinização ([Docker](https://www.docker.com/))
+- Serviço de Gerenciamento de Configuração ([Ansible](https://www.ansible.com/))
+
+![Arquitetura da solução CDLearning.]({{site.url}}/images/arquiteturaDevOps.png "Arquitetura da solução CDLearning.")
+
 ## Caso de Uso do Cadastro de um Sistema
 
 O aluno acessa a interface gráfica do Microservico (imagem abaixo), informando o nome do sistema e o endereço do repositório do código fonte a ser criado no Gitlab.
@@ -21,30 +42,17 @@ Durante o desenvolvimento do sistema, a execução da sua respectiva ECS será i
 
 ![Executando a Entrega Contínua de Software.]({{site.url}}/images/cdlearning_pipeline.png "Executando a Entrega Contínua de Software.")
 
-## Detalhe de um serviço
+## Acessando detalhes de um serviço
 
 No módulo Microservico, é possível acessar detalhes do contêineres, o sistema em um endereço na internet do tipo MeuSistema.devops.xxxx.zz, o repositório do código fonte no Gitlab, as execuções da ECS no Jenkins, a imagem da aplicação no Nexus e gerenciar o acesso de membros do serviço.
 
 ![Detalhe de um sistema.]({{site.url}}/images/detalheServico.png "Detalhe de um Sistema / Serviço.")
 
-## Detalhe dos containeres de um serviço
-
-No módulo Microservico, é possível visualizar a quantidade dos contêineres, portas, volumes, imagens e parâmetros de inicialização da execução.
+Além disso, é possível visualizar no módulo Microservico a quantidade dos contêineres, portas, volumes, imagens e parâmetros de inicialização da execução.
 
 ![Detalhe dos conteineres de um Sistema / Serviço.]({{site.url}}/images/detalheContaineres.png "Detalhe dos conteineres de um Sistema / Serviço.")
 
-## Arquitetura Geral do CDLearning
-
-O ambiente disponibiliza os seguintes serviços:
-
-- Serviço de Repositório de Código Fonte ([GitLab](https://about.gitlab.com/))
-- Serviço de Execução de _Pipeline_ ([Jenkins](https://www.jenkins.io/))
-- Serviço de Armazenamento de Artefatos ([Nexus](https://www.sonatype.com/))
-- Serviço de Conteinização ([Docker](https://www.docker.com/))
-- Serviço de Gerenciamento de Configuração ([Ansible](https://www.ansible.com/))
-
-![Arquitetura da solução CDLearning.]({{site.url}}/images/arquiteturaDevOps.png "Arquitetura da solução CDLearning.")
 
 ## Quem usa o CDLearning
 
-Atualmente, o CDLearning está em operação no IFRN (Instituto Federal do Rio Grande do Norte) no endereço ([DevOps IFRN](https://devops.ifrn.edu.br/)).
+Atualmente, o CDLearning está sendo utilizado em disciplinas de computação no Instituto Federal do Rio Grande do Norte (IFRN) no endereço ([DevOps IFRN](https://devops.ifrn.edu.br/)).
